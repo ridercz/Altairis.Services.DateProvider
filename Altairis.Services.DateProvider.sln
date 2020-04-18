@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TzList", "TzList\TzList.csproj", "{A858D210-1887-46DD-A589-306FAFF95789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altairis.Services.DateProvider", "Altairis.Services.DateProvider\Altairis.Services.DateProvider.csproj", "{F4F9B24D-A2CA-452F-8EC2-694F19BA888D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A858D210-1887-46DD-A589-306FAFF95789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A858D210-1887-46DD-A589-306FAFF95789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A858D210-1887-46DD-A589-306FAFF95789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A858D210-1887-46DD-A589-306FAFF95789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F9B24D-A2CA-452F-8EC2-694F19BA888D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F9B24D-A2CA-452F-8EC2-694F19BA888D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F9B24D-A2CA-452F-8EC2-694F19BA888D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F9B24D-A2CA-452F-8EC2-694F19BA888D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35D00F7B-0328-42C6-BDDB-3E44157DF8BA}
+	EndGlobalSection
+EndGlobal
