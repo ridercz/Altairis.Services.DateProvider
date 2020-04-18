@@ -2,6 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Michal Altair Valášek</Authors>
+    <Company>Altairis, s. r. o.</Company>
+    <Description>Set of date and time providers to replace calling DateTime.Now</Description>
+    <Copyright>Copyright © Michal A. Valášek - Altairis, 2020</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ridercz/Altairis.Services.DateProvider</PackageProjectUrl>
+    <PackageIcon>NuGet-64x64.png</PackageIcon>
+    <RepositoryUrl>https://github.com/ridercz/Altairis.Services.DateProvider.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Altairis.Services.LoginApprovals\NuGet-64x64.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
