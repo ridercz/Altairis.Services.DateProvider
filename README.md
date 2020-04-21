@@ -2,7 +2,7 @@
 
 # Altairis.Services.DateProvider
 
-This is solution for working with "current" date and time when `DateTime.Now` won't just fit. It defines the `IDateProvider` interface and several implementations.
+This is solution for working with "current" date and time when `DateTime.Now` won't just fit. It defines the `IDateProvider` interface and several implementations. It targets `netstandard2.0`, so it works with .NET Core as well as with .NET Framework.
 
 ## Usage
 
