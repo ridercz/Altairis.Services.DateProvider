@@ -2,6 +2,11 @@
 
 # Altairis.Services.DateProvider
 
+> **This solution is now obsolete. .NET 8.0 has new `TimeProvider` abstraction built in, making this library unnecessary.**
+> * [More information about the TimeProvider class and its usage](https://learn.microsoft.com/en-us/dotnet/api/system.timeprovider?view=net-8.0)
+> * [RoundedTimeProvider class example](https://gist.github.com/ridercz/ab35dd1d3fe7f74bdc72c88976e67aea), providing functions equivalent to this library, compatible with this new API.
+
+
 This is solution for working with "current" date and time when `DateTime.Now` won't just fit. It defines the `IDateProvider` interface and several implementations. It targets `netstandard2.0`, so it works with .NET Core as well as with .NET Framework.
 
 ## Usage
@@ -59,7 +64,7 @@ There are two main reasons for this library's existence: Rounding the time and w
 
 ### Rounding the Time
 
-Getting date and time using .NET `DateTime.Now` or SQL Servers `GETDATE()` is simple and precise. Often _too much_ precíse, actually, as the precision goes well beyond current second. How much? It's hard to say, because it differs depending on the data type used, and it's not the same in C# and database.
+Getting date and time using .NET `DateTime.Now` or SQL Servers `GETDATE()` is simple and precise. Often _too much_ precÃ­se, actually, as the precision goes well beyond current second. How much? It's hard to say, because it differs depending on the data type used, and it's not the same in C# and database.
 
 Working with miliseconds and beyond may bring simple comparation to solving interval task. So the providers will allow you to trim the precision to last second or even last minute, because that's usually more than enough.
 
